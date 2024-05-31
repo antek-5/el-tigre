@@ -1,0 +1,72 @@
+
+
+
+
+.about-us-page-inner {
+    width: 100vw;
+    height: 400px;
+    padding: 0;
+    
+
+    //background-image: url('../../images/about-us.png');
+    //background-image: brightness(35%);
+
+    img {
+        filter: brightness(35%);
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+
+    .box {
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+
+        max-width: 450px;
+        @media (max-width:450px) {width:80vw;}
+
+        h1 {
+            color: $color-main;
+            letter-spacing: 8px;
+
+            font-size: 35px;
+            margin-top: -40px;
+        }
+
+        div {
+            background-color: $color-main;
+            width: 350px;
+            height: 3px;
+            margin-top: -10px;
+            margin-bottom: 30px;
+        }
+
+
+        p {
+            color: $color-one;
+            letter-spacing: 2px;
+            font-style: italic;
+            font-size: 17px;
+            @media (max-width:450px) {font-size: 12px;}
+            font-weight: 600;
+        }
+
+        .pull-to-right {
+            align-self: flex-end;
+        }
+
+    }
+
+}

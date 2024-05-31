@@ -1,0 +1,82 @@
+
+
+.contact-us-page-inner {
+
+    height: 500px;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 30px;
+        color: $color-main;
+        letter-spacing: 5px;
+        font-weight: 650;
+        font-size: 35px;
+    }
+
+    .underline-div {
+        margin-top: -10px;
+        background-color: $color-main;
+        width: 380px;
+        height: 3px;
+    }
+
+    .form {
+        form {
+
+
+            .text-input-div{
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 0;
+
+                label {
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    letter-spacing: 2px;;
+                }
+                input {
+                    height: 30px;
+                    width: 250px;
+                    border-width: 1.5px;
+                }
+
+
+
+                &.message-div {
+                    input {
+                        height: 70px;
+                    }
+                }
+            }
+
+            .submit-button-div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                input {
+                    height: 40px;
+                    width: 120px;
+
+                    border-width: 0;
+                    background-color: $color-main;
+
+                    color: $color-one;
+                    letter-spacing: 2.5px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    
+
+                }
+            }
+        }
+    }
+
+
+}

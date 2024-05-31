@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": "01",
+            "title": "LA LAGARTIJA",
+            "description": "Mysterious and treacherous... The best choice for the start of your journey! It will provide you a rich delicious flavor.",
+            "roasting": "5",
+            "intensity": "6",
+            "mostPopular": "yes",
+            "imgSrc": "./images/coffee-1.png"
+        },
+        
+        {
+            "id": "02",
+            "title": "EL TIGRE",
+            "description": "Really dark coffee, only for the real gourmets. It has bitter flavor of grapefruits and is mixed with a little bit of peanuts with caramel.",
+            "roasting": "8",
+            "intensity": "9",
+            "mostPopular": "no",
+            "imgSrc": "./images/coffee-2.png"
+        },
+        
+        {
+            "id": "03",
+            "title": "LA CUCARACHA",
+            "description": "Sweet and intense with a big amount of different flavors. Caramel, grapes, strwaberry, you name it! It's great choice for warm summer days.",
+            "roasting": "3",
+            "intensity": "7",
+            "mostPopular": "no",
+            "imgSrc": "./images/coffee-3.png"
+        }
+    ],
+
+    "contactUs": [
+        {
+
+            "name": "Donald",
+            "title": "bulk order",
+            "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+        }
+
+    ]
+}
