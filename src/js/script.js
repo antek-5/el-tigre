@@ -119,14 +119,14 @@ const pageApp = {
                 thisPageApp.data = {
                     products: parsedResponse
                 }
-                
+                thisPageApp.initProductsPage();
             });
 
         // rest of init..
         setTimeout(() => {
 
             //console.log('thisPageApp.data.products', thisPageApp.data.products)
-            thisPageApp.initProductsPage();
+            
             thisPageApp.initAboutUsPage();
             thisPageApp.initContactUsPage();
 
